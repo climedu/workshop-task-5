@@ -233,7 +233,12 @@ function draw () {
 
 ## Task Journey
 
-
+Personal data - Type of workout
+Week, Swimming, Weight Lifting, Running
+1, 2, 3, 1
+2, 2, 3, 1
+3, 2, 3, 1
+4, 0, 3, 3
 
 ### Process 1
 
