@@ -9,7 +9,7 @@ Here is a URL to the webpage for this project: [link]( https://climedu.github.io
 ## Overview
 - Follow the workshop
 - Working with CSV files
-- Visualisation of the data
+- Experimenting with visualisation of the data
 
 ## Workshop Notes
 
@@ -199,7 +199,7 @@ function allMyFruit(){
   }
   let countOranges = row.get("Oranges");
   if(countOranges> 0 ){
-      for (y = 0; <countBananas; y++){
+      for (y = 0; <countOranges; y++){
         image(orange, xPos, yPos, 40,40);
         xPos += 20;
         if (xPos> 370){
@@ -225,6 +225,7 @@ function allMyFruit(){
 function draw () {
   background (220);
   allMyFruit();
+}
 ```
 
 <img width="400" alt="Screenshot 2025-01-28 at 12 22 47 AM" src="https://github.com/user-attachments/assets/db0c8532-a07a-42be-8875-7dcf92232c12" />
@@ -242,10 +243,11 @@ Personal data -  Amount of workouts for each type
 
 ### Process 1
 Drafting how I want to visualize my data
-- The square size depends on the sum result of each quantity
-- Next pics is to show the data with pics, going horizontally
+- The square and text size depends on the sum result of each quantity
 
-<img width="400" alt="Screenshot 2025-01-28 at 1 34 35 AM" src="https://github.com/user-attachments/assets/7112da02-2995-4379-b00a-bb09a061fa3a" />
+
+<img width="400" alt="Screenshot 2025-01-28 at 3 18 40 AM" src="https://github.com/user-attachments/assets/24bf9eed-ee49-4c5b-83fc-809e69849b04" />
+
 
 
 ### Process 2
@@ -255,14 +257,23 @@ Create the csv files in the google spreadsheets and download them in csv format
 
 
 ### Process 3
+Create a visualisation of data with the square and text size by having the draw and calculate function
 
-### Process 4
+<img width="400" alt="Screenshot 2025-01-28 at 2 51 10 AM" src="https://github.com/user-attachments/assets/4015f650-0597-4cf2-b0ed-a3d086d923f8" />
 
-### Process 5
+
+### Result
+
+Adding some numbers 
+
+<img width="400" alt="Screenshot 2025-01-28 at 3 17 32 AM" src="https://github.com/user-attachments/assets/0e2cacf8-51a4-4bd9-b529-fbff87bcb163" />
+
 
 
 ### Commentaries
--
+- Trying experimenting to applying it to different elements such as the text
+- Turned out to sum up the total, trying figuring out how to do it because previous one didn't do the total, instead it was the individual amount of each category 
 
 ## Future Development
-- 
+- Adding some button to change the style of the visualisation
+- But before that, need to learn how to group the functions so can go to another functions
