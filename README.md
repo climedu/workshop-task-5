@@ -178,7 +178,7 @@ function allMyFruit(){
   let countBananas = row.get("Bananas");
   if(countBananas> 0 ){
       for (y = 0; <countBananas; y++){
-        image(banana, xPos, xPos, 40,40);
+        image(banana, xPos, yPos, 40,40);
         xPos += 20;
         if (xPos> 370){
           yPos += 30; // means add 30 each time
@@ -200,7 +200,7 @@ function allMyFruit(){
   let countOranges = row.get("Oranges");
   if(countOranges> 0 ){
       for (y = 0; <countBananas; y++){
-        image(orange, xPos, xPos, 40,40);
+        image(orange, xPos, yPos, 40,40);
         xPos += 20;
         if (xPos> 370){
           yPos += 30; // means add 30 each time
@@ -211,7 +211,7 @@ function allMyFruit(){
   let countPears = row.get("Pears");
   if(countPears> 0 ){
       for (y = 0; <countPears; y++){
-        image(pear, xPos, xPos, 40,40);
+        image(pear, xPos, yPos, 40,40);
         xPos += 20;
         if (xPos> 370){
           yPos += 30; // means add 30 each time
@@ -233,17 +233,26 @@ function draw () {
 
 ## Task Journey
 
-Personal data - Type of workout
-Week, Swimming, Weight Lifting, Running
-1, 2, 3, 1
-2, 2, 3, 1
-3, 2, 3, 1
-4, 0, 3, 3
+Personal data -  Amount of workouts for each type
+- Week, Swimming, Weight Lifting, Running, Other Workout
+- 1, 2, 3, 1, 2
+- 2, 2, 3, 1, 0 
+- 3, 2, 3, 1, 1
+- 4, 0, 3, 2, 1
 
 ### Process 1
+Drafting how I want to visualize my data
+- The square size depends on the sum result of each quantity
+- Next pics is to show the data with pics, going horizontally
+
+<img width="400" alt="Screenshot 2025-01-28 at 1 34 35 AM" src="https://github.com/user-attachments/assets/7112da02-2995-4379-b00a-bb09a061fa3a" />
 
 
 ### Process 2
+Create the csv files in the google spreadsheets and download them in csv format
+
+<img width="400" alt="Screenshot 2025-01-28 at 1 39 52 AM" src="https://github.com/user-attachments/assets/1fe11094-50d4-45ea-834d-dbb8a9a82f12" />
+
 
 ### Process 3
 
